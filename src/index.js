@@ -43,3 +43,5 @@ app.get("/user/:name", async (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor Express rodando na porta ${port}`);
 });
+
+//arquivo responsavel por renderizar elementos
